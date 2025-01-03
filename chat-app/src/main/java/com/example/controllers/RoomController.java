@@ -24,7 +24,7 @@ public class RoomController {
     public ResponseEntity<?> createRoom(@RequestBody String roomId){
 
         if(roomRepository.findByRoomId(roomId)!=null){
-            return ResponseEntity.badRequest().body("Room Already Exists");
+            return ResponseEntity.badRequest().body("Room Already Exists!");
         }
         Room room = new Room();
         room.setRoomId(roomId);
