@@ -1,0 +1,16 @@
+emoji-picker {
+    --background: var(--background, #ffffff);
+    --border-radius: 8px;
+    --category-icon-size: 20px;
+    height: 350px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+  
+  .dark emoji-picker {
+    --background: #1f2937;
+    --text-color: #e5e7eb;
+    --border-color: #374151;
+    --category-border-color: #374151;
+    --button-hover-background: #374151;
+    --button-active-background: #4b5563;
+  }
